@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  #todo-list {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  li {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  #container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  ul {
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 10px;
+    font-size: 24px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  .deleteTask {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .updateTask {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  
